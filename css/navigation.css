@@ -1,0 +1,19 @@
+/* Navigation */
+.nav-hr,
+.nav-hr__menu-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-hr__menu-item {
+  margin-right: 40px;
+}
+
+.nav-hr__menu-item:last-child {
+  margin-right: 0;
+}
+
+.nav__menu-item-link {
+  text-decoration: none;
+  color: inherit;
+}
