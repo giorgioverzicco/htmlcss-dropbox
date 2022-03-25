@@ -1,0 +1,48 @@
+/* Hero */
+.sect-hero {
+  background-color: #b7d0e6;
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 64px;
+}
+
+.hero-details {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-col {
+  margin-top: 50px;
+  float: left;
+}
+
+.hero-col-left {
+  width: 30%;
+}
+
+.hero-col-right {
+  padding-left: 80px;
+  width: 70%;
+  position: relative;
+}
+
+.hero-col-right img {
+  position: absolute;
+  width: 80%;
+}
+
+.hero-cancel-subscription {
+  margin-top: 10px;
+}
+
+.hero-go-down {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.hero-go-down a {
+  text-decoration: none;
+  color: inherit;
+}
