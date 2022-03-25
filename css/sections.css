@@ -46,3 +46,107 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* Sections */
+.sect {
+  margin-top: 100px;
+}
+
+.sect-plans {
+  margin-top: 200px;
+}
+
+.sect-plans-title {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.sect-plans .billing-type {
+  margin-bottom: 30px;
+}
+
+.sect-plans .billing-type span {
+  margin-right: 10px;
+}
+
+.sect-plans .plan-col {
+  float: left;
+  width: calc(100% / 3 - 80px);
+  margin-right: 80px;
+}
+
+.sect-plans .plan-col,
+.plan-container hr {
+  border: 1px solid lightgrey;
+}
+
+.plan-container {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.plan-col .plan-max-users {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+.plan-title,
+.plan-cost {
+  font-weight: bold;
+}
+
+.plan-title {
+  font-size: 24px;
+}
+
+.plan-cost {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.plan-period {
+  color: #7d8994;
+}
+
+.plan-features,
+.plan-summary {
+  margin-top: 40px;
+  list-style-type: none;
+}
+
+.plan-features__list-item {
+  padding-bottom: 20px;
+}
+
+.plan-try-buy {
+  margin-top: 30px;
+}
+
+.plan-buy-now {
+  margin: 30px 0;
+}
+
+.plan-buy-now a {
+  color: #0067f9;
+  font-weight: bold;
+}
+
+.plan-container hr {
+  width: 20%;
+}
+
+.plan-summary-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plan-summary__list-item {
+  margin: 15px 0;
+}
+
+.plan-summary__list-item i {
+  color: #0067f9;
+}
