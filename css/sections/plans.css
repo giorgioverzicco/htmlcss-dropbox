@@ -18,27 +18,15 @@
 }
 
 .plans__product-col {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 22px);
+  margin-left: 30px;
   float: left;
   border: 1px solid lightgray;
 }
 
-.plans__product-col-left,
-.plans__product-col-right {
-  width: calc(100% / 3 - 15px - 40px);
-}
-
-.plans__product-col-left {
-  margin-right: 30px;
-}
-
-.plans__product-col-middle {
-  width: calc(100% / 3 - 30px - 40px);
-  margin: 0 30px;
-}
-
-.plans__product-col-right {
-  margin-left: 30px;
+.plans__product-col:first-child,
+.plans__product-col:last-child {
+  margin-left: 0;
 }
 
 .plans__product-col--large {
