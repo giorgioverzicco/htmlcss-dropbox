@@ -1,0 +1,27 @@
+/* Find a partner */
+.find-a-partner__col {
+  float: left;
+  width: 50%;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.find-a-partner__img {
+  width: 100%;
+}
+
+.find-a-partner__col-right {
+  width: calc(50% - 60px);
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.find-a-partner__title {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.find-a-partner__details {
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
