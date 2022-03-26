@@ -1,0 +1,36 @@
+/* Features */
+.features {
+  margin-bottom: 140px;
+}
+
+.features__title {
+  font-size: 48px;
+}
+
+.features__col {
+  min-height: 300px;
+  width: calc(100% / 3 - 52px);
+  margin-top: 80px;
+  margin-left: 60px;
+  float: left;
+}
+
+.features__col:first-child {
+  margin-left: 0;
+}
+
+.features__col-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.features__col-title {
+  font-size: 31px;
+  font-weight: bold;
+  line-height: 1.25em;
+  margin-bottom: 30px;
+}
+
+.features__col-details {
+  line-height: 1.5em;
+}
