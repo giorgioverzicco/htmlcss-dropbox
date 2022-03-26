@@ -1,28 +1,28 @@
 /* Buttons */
 .btn {
-  display: inline-block;
-  padding: 5px 15px;
-  border-radius: 0;
-  border: 1px solid black;
-  background-color: transparent;
+  padding: 10px 20px;
   font-size: 16px;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  color: black;
   cursor: pointer;
+  transition: box-shadow 0.4s, transform 1s;
 }
 
-.btn--medium {
-  padding: 10px 20px;
+.btn:hover {
+  box-shadow: rgb(82, 82, 82, 0.6) 0px 0px 6px 1px inset,
+    rgb(38, 57, 77) 0px 5px 20px -10px;
+  transform: translateY(-0.15em);
 }
 
 .btn--large {
-  padding: 10px 45px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.btn--fw-bold {
-  font-weight: bold;
-}
-
-.btn--bg-blue {
-  background-color: #0061ff;
+.btn--blue {
+  border-color: #0067f9;
+  background-color: #0067f9;
   color: white;
-  border: 1px solid #0061ff;
 }

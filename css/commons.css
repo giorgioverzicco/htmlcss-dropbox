@@ -1,19 +1,20 @@
 /* Commons */
 .container {
-  max-width: 1350px;
   margin: auto;
+  max-width: calc(1350px - 20px);
+  padding: 0 10px;
 }
 
 .container--large {
-  max-width: 1600px;
+  max-width: calc(1650px - 20px);
+}
+
+.row {
+  width: 100%;
 }
 
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
-}
-
-.row {
-  width: 100%;
 }

@@ -1,0 +1,47 @@
+/* Hero */
+.hero {
+  background-color: #b6cee5;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.hero__title {
+  font-size: 54px;
+  line-height: 1.25em;
+}
+
+.hero__col {
+  margin-top: 40px;
+  position: relative;
+}
+
+.hero__col-left {
+  width: 30%;
+  float: left;
+}
+
+.hero__col-right {
+  width: calc(70% - 40px);
+  margin-left: 40px;
+  float: right;
+}
+
+.hero__img {
+  width: 80%;
+  position: absolute;
+  top: 0;
+}
+
+.hero__motto {
+  margin-bottom: 30px;
+  line-height: 1.25em;
+}
+
+.hero__cancel-sub {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.hero__arrow-down {
+  font-size: 40px;
+}

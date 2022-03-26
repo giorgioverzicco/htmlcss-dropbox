@@ -1,0 +1,17 @@
+/* Typo */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: 400;
+}
+
+li,
+button {
+  font-weight: 500;
+}
