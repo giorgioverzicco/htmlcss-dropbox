@@ -1,0 +1,38 @@
+/* Partners */
+.partners {
+  width: 100%;
+  min-height: 600px;
+  background-color: green;
+}
+
+.partners .row {
+  height: 400px;
+  background-color: aqua;
+}
+
+.partners__col {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+.partners__col-mid {
+  width: 40%;
+  background-color: brown;
+}
+
+.partners__col-slot {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.partners__col-slot-img {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.5);
+}
+
+#florida {
+  transform: scale(0.5, 0.15);
+}
