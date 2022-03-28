@@ -26,3 +26,8 @@
   background-color: #0067f9;
   color: white;
 }
+
+.btn--white {
+  border-color: white;
+  background-color: white;
+}

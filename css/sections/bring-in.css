@@ -1,0 +1,20 @@
+/* Bring in */
+.bring-in {
+  background-color: #b4d0e7;
+  padding: 100px 0;
+}
+
+.bring-in__col-left {
+  width: 70%;
+  float: left;
+}
+
+.bring-in__col-right {
+  width: 30%;
+  float: right;
+}
+
+.bring-in__title {
+  font-size: 48px;
+  color: #61082b;
+}
