@@ -2,12 +2,20 @@
 .partners {
   width: 100%;
   min-height: 600px;
-  background-color: green;
+}
+
+.partners__title {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.partners__find-more {
+  color: #006cf3;
 }
 
 .partners .row {
-  height: 400px;
-  background-color: aqua;
+  margin-top: 40px;
+  height: 450px;
 }
 
 .partners__col {
@@ -18,7 +26,8 @@
 
 .partners__col-mid {
   width: 40%;
-  background-color: brown;
+  padding: 50px;
+  background-color: #f5f5f5;
 }
 
 .partners__col-slot {
@@ -31,8 +40,58 @@
   width: 100%;
   height: 100%;
   transform: scale(0.5);
+  object-fit: contain;
+  filter: invert(1);
+}
+
+.partners__col-mid-img {
+  width: 20%;
+  height: 20%;
+}
+
+.partners__col-mid hr {
+  border: 1px solid lightgray;
+  width: 10%;
+  margin-top: 10px;
+}
+
+.partners__col-mid-motto {
+  margin-top: 60px;
+}
+
+.partners__col-mid-author {
+  margin-top: 50px;
+}
+
+#designit {
+  border: 10px solid #d0e9cd;
+  background-color: #a2d39b;
+}
+
+#arizona {
+  background-color: #61082b;
 }
 
 #florida {
-  transform: scale(0.5, 0.15);
+  background-color: #0093ce;
+}
+
+#topps {
+  background-color: #ff1c1c;
+}
+
+#bicycle {
+  background-color: #d5001f;
+}
+
+#hearst {
+  background-color: #b4d0e7;
+}
+
+#lonely {
+  background-color: #0d2481;
+}
+
+#clear {
+  background-color: #ffd830;
 }
